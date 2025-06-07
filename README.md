@@ -1,6 +1,6 @@
-# Git Visual
+# Git Visualizer
 
-Terminal-based GitHub-style commit activity visualization for the last 6 months across all your Git repositories.
+Terminal-based GitHub  commit activity visualization for the last 6 months across all your Git repositories.
 
 ## Build
 
@@ -21,21 +21,6 @@ go build -o git-visual .
 ```
 
 Find your Git email: `git config --global user.email`
-
-## Example Output
-
-```
-         Jan     Feb     Mar     Apr     May     Jun
-       -   -   -   -   -   -   -   -   -   -   -   -
- Mon   -   -   2   -   5   -   -   1   -   -   -   -
-       -   -   -   -   -   -   -   -   -   -   -   -
- Wed   -   3   -   -   8   -   -   -   -   -   -   -
-       -   -   -   -   -   -   -   -   -   -   -   -
- Fri   -   -   -   -   -  12   -   -   -   -   -   -
-       -   -   -   -   -   -   -   -   -   -   -   -
-```
-
-Colors: Gray (no commits), Light (1-4), Yellow (5-9), Green (10+)
 
 ## Global Install
 
