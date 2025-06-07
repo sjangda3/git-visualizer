@@ -30,7 +30,7 @@ func openFile(filePath string) *os.File {
 	if err != nil {
 		if os.IsNotExist(err) {
 			// file does not exist
-			_, err = os.Create(filePath)
+			f, err = os.Create(filePath)
 			if err != nil {
 				panic(err)
 			}
