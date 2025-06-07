@@ -17,3 +17,4 @@ func main() {
 	}
 
 	stats(email)
+}
